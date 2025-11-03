@@ -10,7 +10,7 @@ Welcome to the privacy policy repository for all applications developed by **Cod
 |-------------|----------------|-----------------|---------|
 | **Meme Store** | [View Policy](https://codexyze.github.io/) | [Download](https://play.google.com/store/apps/details?id=com.nutino.memeapp&pcampaignid=web_share) | ✅ Published |
 | **Audio Cutter** | [View Policy](https://codexyze.github.io/audio_cutter.html) | [Download](https://play.google.com/store/apps/details?id=com.nutrino.audiocutter&pcampaignid=web_share) | ✅ Published |
-| **Bite Buddy** | [View Policy](https://codexyze.github.io/bitebuddy.html) | Under Internal Testing | 🧪 Testing Phase |
+| **Bite Buddy** | [View Policy](https://codexyze.github.io/bitebuddy.html) | [Download](https://play.google.com/store/apps/details?id=com.scrymz.bitebuddy) |  ✅ Published |
 
 ## 🔗 Quick Links
 
