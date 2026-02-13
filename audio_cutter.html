@@ -1,83 +1,280 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Privacy Policy - Audio Cutter</title>
+  <title>Privacy Policy – Audio & Video Cutter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    :root {
+      --primary: #6a4cff;
+      --secondary: #f3f1ff;
+      --text: #333;
+      --muted: #666;
+      --card-bg: #ffffff;
+      --border: #e6e6e6;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(180deg, #f6f7fb, #ffffff);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), #8b7bff);
+      color: #fff;
+      padding: 48px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1rem;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 900px;
+      margin: -40px auto 0;
+      padding: 0 20px 40px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: 14px;
+      padding: 30px;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+      border: 1px solid var(--border);
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-top: 0;
+      font-size: 1.4rem;
+    }
+
+    h3 {
+      margin-bottom: 10px;
+      color: #444;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin: 12px 0;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: #fafafa;
+      border-top: 1px solid var(--border);
+      padding: 24px 20px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    footer strong {
+      color: var(--primary);
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      .card {
+        padding: 22px;
+      }
+    }
+  </style>
 </head>
-<body style="font-family: Arial, sans-serif; padding: 30px; background: #fdfdfd; color: #333;">
-  
+
+<body>
+
+<header>
   <h1>Privacy Policy</h1>
+  <p>Audio & Video Cutter • Transparency • Your Data, Your Control</p>
+</header>
 
-  <p><strong>Effective Date:</strong> July 16, 2025</p>
+<main>
 
+  <div class="card">
+    <p><strong>Effective Date:</strong> July 16, 2025</p>
+
+    <p>
+      This Privacy Policy explains how <strong>Audio & Video Cutter</strong> (referred to as “the App”)
+      handles information and user data. We believe privacy should be simple and transparent,
+      especially for tools that work directly with your personal media.
+    </p>
+
+    <p>
+      The App is built as an <strong>offline-first media editing application</strong>.
+      We do not operate backend servers, and we do not collect or store personal data ourselves.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Media Access & App Functionality</h2>
+
+    <p>
+      Audio & Video Cutter accesses media files stored on your device only when you explicitly
+      select them. This access is required to provide the following features:
+    </p>
+
+    <ul>
+      <li>Audio trimming and ringtone creation</li>
+      <li>Video trimming for short clips and status videos</li>
+      <li>Extracting audio from video files</li>
+      <li>Merging multiple audio files into a single track</li>
+    </ul>
+
+    <p>
+      All processing — including trimming, extracting, merging, and converting —
+      happens <strong>entirely on your device</strong>.
+      Your audio and video files are never uploaded or shared.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Personal Data Collection</h2>
+
+    <p>
+      We do <strong>not</strong> collect, store, or share personal information such as:
+    </p>
+
+    <ul>
+      <li>Name, email address, or phone number</li>
+      <li>User accounts or login credentials</li>
+      <li>Edited or original audio and video content</li>
+      <li>Any personally identifiable information</li>
+    </ul>
+
+    <p>
+      Your files remain under your full control and stay on your device at all times.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Permissions</h2>
+
+    <p>The App requests permissions strictly required for its core features:</p>
+
+    <ul>
+      <li><strong>READ_MEDIA_AUDIO</strong> – Access audio files (Android 13+)</li>
+      <li><strong>READ_MEDIA_VIDEO</strong> – Access video files (Android 13+)</li>
+      <li><strong>READ_EXTERNAL_STORAGE</strong> – Media access on Android 12 and below</li>
+      <li><strong>WRITE_EXTERNAL_STORAGE</strong> – Save processed media files</li>
+    </ul>
+
+    <p>
+      These permissions are used only when you choose files to edit or save.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Advertising & Third-Party Services</h2>
+
+    <p>
+      The App displays advertisements using <strong>Google AdMob</strong>,
+      including banner and interstitial ads.
+    </p>
+
+    <p>
+      AdMob may automatically collect certain information to serve ads and measure performance.
+      This data is collected by Google, not by the App developer.
+    </p>
+
+    <h3>Information AdMob may collect:</h3>
+    <ul>
+      <li>Advertising ID (or a non-personalized alternative)</li>
+      <li>Device information (model, OS version)</li>
+      <li>Approximate location (based on IP address)</li>
+      <li>Ad interaction data (impressions and clicks)</li>
+      <li>Crash and performance diagnostics</li>
+    </ul>
+
+    <p>
+      The advertising ID is used <strong>only</strong> for ad delivery and measurement.
+      It is not used for personal identification by us.
+    </p>
+
+    <p>
+      You can manage ad personalization through your Google account and device settings.
+      Learn more here:
+      <a href="https://policies.google.com/privacy" target="_blank">
+        Google Privacy Policy
+      </a>
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Internet Usage</h2>
+
+    <p>
+      Internet access is required only to load and display advertisements.
+      All media editing features work fully offline.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Policy Updates</h2>
+
+    <p>
+      This Privacy Policy may be updated to reflect new features or legal requirements.
+      Any changes will be published on this page with an updated effective date.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Contact</h2>
+
+    <p>
+      If you have questions, concerns, or feedback regarding this Privacy Policy,
+      feel free to contact the developer:
+    </p>
+
+    <p>
+      <strong>Email:</strong> nutrinonovarage@gmail.com
+    </p>
+  </div>
+
+</main>
+
+<footer>
   <p>
-    This privacy policy applies to the Audio Cutter app (the "App"). Your privacy is very important to us. 
-    We do not collect, store, or share any personal information on our own servers.  
+     <strong>Audio & Video Cutter</strong> • Built by NUTRINO.
   </p>
-
-  <h2>📂 What Information We Access</h2>
-  <p>The App only accesses local audio files stored on your device in order to provide trimming and editing functionality.</p>
-
-  <h2>🔐 No Personal Data Collection by Us</h2>
-  <ul>
-    <li>We do <strong>not</strong> collect or transmit any personal or sensitive user data.</li>
-    <li>No audio files, media, or metadata is uploaded to any server.</li>
-    <li>No account creation, login, or analytics tracking is performed by us.</li>
-  </ul>
-
-  <h2>📱 Permissions Used</h2>
-  <p>To function properly, the App requests the following permissions:</p>
-  <ul>
-    <li><strong>READ_MEDIA_AUDIO</strong> – For accessing audio files (Android 13+).</li>
-    <li><strong>READ_EXTERNAL_STORAGE</strong> – For accessing audio files (Android 12 and below).</li>
-    <li><strong>WRITE_EXTERNAL_STORAGE</strong> – For saving the trimmed audio to your device.</li>
-  </ul>
-  <p>These permissions are used strictly for the app’s audio editing features.</p>
-
-  <h2>📡 Ads & Third-Party Services (AdMob)</h2>
-  <p>
-    The App uses <strong>Google AdMob</strong> to show advertisements.  
-    AdMob may collect certain data automatically to serve personalized or non-personalized ads.
-  </p>
-
-  <h3>Types of data AdMob may collect:</h3>
-  <ul>
-    <li>Device information (model, OS version, device identifiers)</li>
-    <li>Approximate location (based on IP)</li>
-    <li>Crash logs & performance data</li>
-    <li>Ad interaction data (such as impressions and clicks)</li>
-  </ul>
-
-  <p>
-    This data is collected directly by Google and not by us.  
-    You can choose whether to allow personalized ads through Google's consent mechanisms.
-  </p>
-
-  <p>
-    For more information, please review Google's privacy policy:<br>
-    <a href="https://policies.google.com/privacy" target="_blank">
-      https://policies.google.com/privacy
-    </a>
-  </p>
-
-  <h2>🌐 Internet Usage</h2>
-  <p>
-    The App requires internet access only for serving advertisements via AdMob.  
-    All audio editing features work fully offline.
-  </p>
-
-  <h2>👥 Other Third-Party Services</h2>
-  <p>
-    Apart from Google AdMob, the App does not use any other third-party SDKs or services that collect or process user data.
-  </p>
-
-  <h2>🙋 Contact</h2>
-  <p>
-    If you have any questions about this policy or the App, feel free to contact the developer at  
-    <strong>nutrinonovarage@gmail.com</strong>.
-  </p>
-
-  <p>Thank you for using Audio Cutter! 🎶✂️</p>
+</footer>
 
 </body>
 </html>
