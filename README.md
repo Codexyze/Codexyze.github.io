@@ -38,6 +38,7 @@ This repository uses GitHub Pages to host static HTML files containing privacy p
 ```
 ├── index.html          # Meme Store Privacy Policy (root)
 ├── audio_cutter.html   # Audio Cutter Privacy Policy
+├── audiocutterwebpage.html # Audio Cutter Website
 ├── bitebuddy.html      # Bite Buddy Privacy Policy
 └── README.md          # This file
 ```
