@@ -71,6 +71,7 @@
       margin-bottom: 10px;
       color: #444;
       font-size: 1.05rem;
+      margin-top: 24px;
     }
 
     ul {
@@ -228,11 +229,10 @@
       <li>Original or edited audio and video content</li>
       <li>Recorded microphone audio</li>
       <li>Location data</li>
-      <li>Browsing or app usage history</li>
     </ul>
 
     <p>
-      Your files remain under your full control and stay on your device at all times.
+      Your files remain under your full control and stay on your device at all times. We only collect anonymous app usage and crash data to improve the app's performance (detailed in the Third-Party Services section).
     </p>
   </div>
 
@@ -264,95 +264,64 @@
 
     <p>
       While media processing happens on your device, the App integrates with the following
-      trusted third-party services:
+      trusted third-party services to provide ads, handle subscriptions, monitor bugs, and understand app usage:
     </p>
 
     <h3>1. Google AdMob (Advertising)</h3>
     <p>
       The App displays advertisements using <strong>Google AdMob</strong> (banner and interstitial ads).
       AdMob may automatically collect certain data to serve and measure ads.
-      This data is collected by Google, not by us.
     </p>
-
-    <p><strong>Information AdMob may collect:</strong></p>
     <ul>
       <li>Advertising ID (or non-personalized alternative)</li>
       <li>Device information (model, OS version)</li>
       <li>Approximate location (based on IP address)</li>
       <li>Ad interaction data (impressions and clicks)</li>
-      <li>Crash and performance diagnostics</li>
     </ul>
-
     <p>
-      You can manage ad personalization through your Google account settings.
       Learn more: <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a>
     </p>
 
-    <h3>2. RevenueCat & Google Play Billing (Subscriptions)</h3>
+    <h3>2. Google Analytics & Firebase Crashlytics</h3>
     <p>
-      The App offers a <strong>Pro subscription</strong> for advanced features.
-      Subscription processing is handled through:
+      To improve the App's interface and fix bugs quickly, we use <strong>Google Analytics for Firebase</strong> and <strong>Firebase Crashlytics</strong>. These tools collect anonymized data about how the app runs on your device.
+    </p>
+    <ul>
+      <li><strong>App Usage Data:</strong> Screens visited, buttons clicked, and session duration to help us understand which features are most popular.</li>
+      <li><strong>Crash Reports:</strong> If the app crashes (e.g., during a video export), Crashlytics logs the error, the line of code that failed, and the device state (RAM usage, OS version) at the time of the crash.</li>
+      <li><strong>Device Information:</strong> Device model, operating system, and anonymous installation IDs.</li>
+    </ul>
+    <div class="highlight-box">
+      <strong>Important:</strong> Analytics and Crashlytics <strong>never</strong> have access to your personal media, videos, audio files, or microphone recordings.
+    </div>
+    <p>
+      Learn more: <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy & Security</a>
     </p>
 
-    <ul>
-      <li><strong>Google Play Billing:</strong> Processes payment transactions securely</li>
-      <li><strong>RevenueCat:</strong> Manages subscription status and entitlements</li>
-    </ul>
-
+    <h3>3. RevenueCat & Google Play Billing (Subscriptions)</h3>
     <p>
-      RevenueCat may collect:
+      The App offers a <strong>Pro subscription</strong> for advanced features. Subscription processing is handled through Google Play Billing and RevenueCat.
     </p>
     <ul>
       <li>Subscription status and plan information</li>
       <li>Purchase history (managed by Google Play)</li>
       <li>Device identifiers (for license verification)</li>
-      <li>Analytics about subscription usage</li>
     </ul>
-
     <p>
       Payment details are processed securely by Google Play and are never shared with us or RevenueCat.
-      You can manage or cancel your subscription anytime through Google Play > My Apps > Audio & Video Cutter > Subscription.
-    </p>
-
-    <p>
       Learn more:
       <a href="https://www.revenuecat.com/privacy" target="_blank">RevenueCat Privacy Policy</a> •
       <a href="https://policies.google.com/privacy" target="_blank">Google Play Privacy</a>
     </p>
 
-    <h3>3. Firebase Cloud Messaging (Push Notifications)</h3>
+    <h3>4. Firebase Cloud Messaging (Push Notifications)</h3>
     <p>
-      The App uses <strong>Firebase Cloud Messaging (FCM)</strong> to send push notifications.
-      This service is provided by Google and may collect:
+      The App uses <strong>Firebase Cloud Messaging (FCM)</strong> to send push notifications (e.g., "Your audio is ready", subscription reminders).
     </p>
-
     <ul>
       <li>FCM registration tokens (for delivery identification)</li>
-      <li>Device identifiers</li>
       <li>Notification interaction data (delivered, opened, dismissed)</li>
     </ul>
-
-    <p>
-      <strong>What notifications are used for:</strong>
-    </p>
-    <ul>
-      <li>Processing updates (e.g., "Your audio is ready")</li>
-      <li>Feature announcements and updates</li>
-      <li>Subscription reminders</li>
-      <li>Important app notifications</li>
-    </ul>
-
-    <p>
-      You can disable notifications anytime:
-    </p>
-    <ul>
-      <li><strong>App Level:</strong> Go to the App's notification settings and toggle off</li>
-      <li><strong>System Level:</strong> Go to <strong>Settings > Apps > Audio & Video Cutter > Notifications > Toggle Off</strong></li>
-    </ul>
-
-    <p>
-      Learn more: <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy & Security</a>
-    </p>
   </div>
 
   <div class="card">
@@ -364,6 +333,7 @@
 
     <ul>
       <li>Loading and displaying advertisements (AdMob)</li>
+      <li>Sending anonymous app usage statistics and crash reports (Google Analytics & Crashlytics)</li>
       <li>Processing subscription and entitlement checks (RevenueCat)</li>
       <li>Receiving push notifications (Firebase Cloud Messaging)</li>
     </ul>
@@ -403,10 +373,10 @@
       <li>This removes recent history, settings, and cached subscription info</li>
     </ul>
 
-    <h3>Opt Out of Personalized Ads</h3>
+    <h3>Opt Out of Personalized Ads & Analytics</h3>
     <ul>
-      <li>Go to <strong>Settings > Google > Manage your Google Account > Data & Privacy</strong></li>
-      <li>Find "Ad Personalization" and toggle off</li>
+      <li>Go to <strong>Settings > Google > Ads</strong> to manage or delete your advertising ID.</li>
+      <li>Uninstalling the App will completely stop all future data collection and delete all local data.</li>
     </ul>
 
     <div class="highlight-box">
@@ -426,8 +396,7 @@
     </p>
 
     <p>
-      For maximum privacy, you can disable internet features (ads, subscriptions, notifications)
-      and use the App for offline media editing.
+      For maximum privacy, you can disable internet connections on your device and use the App for offline media editing.
     </p>
   </div>
 
